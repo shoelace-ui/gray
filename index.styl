@@ -2,10 +2,10 @@
  * Define gray variations.
  */
 
-gray--base     ?= #aaa
-gray--light    ?= lighten(gray--base, 10%)
-gray--lighter  ?= lighten(gray--base, 20%)
-gray--lightest ?= lighten(gray--base, 30%)
-gray--dark     ?= darken(gray--base, 10%)
-gray--darker   ?= darken(gray--base, 20%)
-gray--darkest  ?= darken(gray--base, 30%)
+gray--base     ?= palette--gray-base     or #aaa
+gray--light    ?= palette--gray-light    or lighten(gray--base, 10%)
+gray--lighter  ?= palette--gray-lighter  or lighten(gray--base, 20%)
+gray--lightest ?= palette--gray-lightest or lighten(gray--base, 30%)
+gray--dark     ?= palette--gray-dark     or darken(gray--base, 10%)
+gray--darker   ?= palette--gray-darker   or darken(gray--base, 20%)
+gray--darkest  ?= palette--gray-darkest  or darken(gray--base, 30%)
