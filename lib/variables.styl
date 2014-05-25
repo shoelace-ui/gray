@@ -1,0 +1,11 @@
+/**
+ * Define gray variations.
+ */
+
+gray--base     ?= lookup('palette--gray-base') or #aaa
+gray--light    ?= lookup('palette--gray-light') or lighten(gray--base, 10%)
+gray--lighter  ?= lookup('palette--gray-lighter') or lighten(gray--base, 20%)
+gray--lightest ?= lookup('palette--gray-lightest') or lighten(gray--base, 30%)
+gray--dark     ?= lookup('palette--gray-dark') or darken(gray--base, 10%)
+gray--darker   ?= lookup('palette--gray-darker') or darken(gray--base, 20%)
+gray--darkest  ?= lookup('palette--gray-darkest') or darken(gray--base, 30%)
