@@ -1,11 +1,11 @@
 extends layout
 
-block head
+append head
   style
     :stylus
       @require '../index.styl'
 
-      [class*=gray]
+      [class*=gray--]
         color white
         padding 10px
 
@@ -24,7 +24,7 @@ block head
       .gray--darkest
         background gray--darkest
 
-block body
+append body
   mixin gray(suffix)
     p(class='gray--#{suffix}') gray--#{suffix}
 

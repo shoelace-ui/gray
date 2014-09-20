@@ -1,9 +1,9 @@
 {
   "name" : "shoelace-ui-gray",
-  "version" : "0.0.1",
+  "version" : "0.1.0",
   "description" : "gray variables",
   "repository" : "https://github.com/shoelace-ui/gray.git",
-  "keywords" : ["stylus", "shoelace", "grey", "gray", "variable", "variables"],
+  "keywords" : ["stylus", "shoelace", "grey", "gray"],
   "author" : "Michael Andrew Vanasse <mail@mndvns.com>",
   "license" : "MIT",
   "devDependencies": {
